@@ -1,0 +1,38 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.chat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  height: 70px;
+  border-bottom: 1px solid #f9f9f9;
+}
+
+a {
+  text-decoration: none;
+  /* color: inherit */
+}
+
+.chat_details {
+  flex: 1;
+}
+
+.chat_details > h2 {
+  color: black;
+}
+
+.chat_details > p {
+  color: gray;
+}
+
+.chat_timestamp {
+  color: lightgray;
+}
+
+.chat_image {
+  margin-right: 10px;
+  zoom: 1.5;
+}
